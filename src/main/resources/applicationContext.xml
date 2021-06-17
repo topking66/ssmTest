@@ -19,9 +19,9 @@
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
 
         <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
-        <property name="jdbcUrl" value="jdbc:mysql://47.107.60.81:3306/ssm"/>
-        <property name="user" value="root"/>
-        <property name="password" value="990823"/>
+        <property name="jdbcUrl" value=""/>
+        <property name="user" value=""/>
+        <property name="password" value=""/>
 
     </bean>
 <!--    配置SqlSessionFactory工厂-->
